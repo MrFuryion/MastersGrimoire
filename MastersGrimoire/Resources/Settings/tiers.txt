@@ -1,0 +1,63 @@
+0~Red ~Red
+0~Orange ~Orange
+0~Pink ~Pink
+0~Yellow ~Yellow
+0~Green ~Green
+0~Turquoise ~Turquoise
+0~Blue ~Blue
+0~Purple ~Purple
+0~Black ~Black
+0~White ~White
+0~Teal ~Teal
+0~Mauve ~Mauve
+1~Antique Ring~ Antique Ring
+1~Ancient Ring~ Ancient Ring
+1~Glass Ring~ Glass Ring
+1~Glass Luring Ring ~Glass Ring
+1~Crystal Ring~ Crystal Ring
+1~Crystal Luring Ring ~Crystal Ring
+1~Fabled Ring~ Fabled Ring
+1~Fabled Luring Ring ~Fabled Ring
+1~Minor ~Minor
+1~Lesser ~Lesser
+1~Mystic ~Mystic
+1~Greater ~Greater
+1~Grand ~Grand
+1~Mighty ~Mighty
+1~Major ~Major
+1~Majestic ~Majestic
+1~Royal ~Royal
+1~Imperial ~Imperial
+1~Godly ~Godly
+1~Dark ~Dark
+1~Darkfire~Dark
+1~Darkice~Dark
+1~Darkbolt~Dark
+1~Darkbane~Dark
+1~Darklore~Dark
+1~Darkheart~Dark
+1~Darksworn~Dark
+1~Darkscale~Dark
+1~Shadow ~Shadow
+1~Shadowfire~Shadow
+1~Shadowice~Shadow
+1~Shadowbolt~Shadow
+1~Shadowbane~Shadow
+1~Shadowlore~Shadow
+1~Shadowheart~Shadow
+1~Shadowsworn~Shadow
+1~Shadowscale~Shadow
+1~Void ~Void
+1~Voidfire~Void
+1~Voidice~Void
+1~Voidbolt~Void
+1~Voidbane~Void
+1~Voidlore~Void
+1~Voidheart~Void
+1~Voidsworn~Void
+1~Voidscale~Void
+1~Goibniu's~Named
+1~Creidhne's~Named
+1~Luchtaine's~Named
+2~ Spell Tome~ Skill Tome
+2~ Training Manual~ Skill Tome

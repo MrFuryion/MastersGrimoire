@@ -1,0 +1,63 @@
+(v4.00)
+<Page 4 - NEW!>
++ Added a new page(Item Inspector) that allows you to search items, seeing ALL of their stats(even hidden ones), and any set bonuses they may have. Also comes with a fancy filtering tool to search items based on stats.
+
+<Page 3 - NEW!>
++ Added a new page(DPS/Aggro Solver) that allows you to calculate damage, aggro, locking potential, and other things, between a customization player and mob, using skills/autos of your choice.
+
+<Page 2>
++ You can now calculate statuses independent of skills(disable auto-search to do so, it may be inaccurate though)
++ Calculator results section has been made larger to avoid having to use abbreviations
++ Adjusted the auto damage formula, it should be slightly more accurate now
++ Fixed issue with incorrect skill ability being shown on skill formulas when level was changed
++ Aggro only skills no longer say they can crit
++ Aggro Multi is now Aggro Bonus(it really added aggro, it didn't multiply it)
++ Frenzy/Steady Aim has better clarification for its formula
++ Numbers over 2147483647 no longer crash the skill/auto calculator
++ "Skill Boost" no longer works on statuses, it caused issues, and there are no status increasing direct bonuses anyway.
++ Tick Rate is now fixed, only statuses that actually tick will show a value, and default instances show the global tick rate(5).
++ A few new status types have been added(Negative Energy, Jubilation Lix, and Gold Rate)
++ Skills/statuses that have only 1 level with a PvP version are now properly displayed
+- Removed Primary Stat, Primary Divisor, Skill Ability, and From Item
+(the first 3 are already shown in the formula, From Item only helps determine if a status can crit, no need to show it when I already list if it can crit or not)
+
+<Page 1>
++ If you search an enemy that has at least 1 spawn point you can search its spawn points along with other enemies using the Spawn Data button
++ You can now view what skills/abilities an enemy has using the Enemy Skills button(the button will be disabled if the enemy has none)
++ Added 6 new search/filter options to the loot table section, including custom word filtering(Minor, Godly, etc)
++ You can now search items(check the item search checkbox), bringing up mobs or loot tables that include those items
++ 100% Immunity is now counted as immune, instead of just 100% damage resist.
++ Several Loot Tables were previously unusable, as they did not have names. These have been added as "Unnamed Loot Table #(number)"
++ An error message is now displayed if the loot set searcher doesn't return any results
+- Removed Fishing Resistance and Armour from mobs
+(no mobs used fishing resist(an unused training dummy and skill shards have immunity to it though), armour is already part of physical resistances)
+
+<General>
++ Added full data for Celtic Heroes enemies/skills
++ Added an automatic search saving function, and listed all the search results at once instead of one by one, greatly increasing search speed
++ Tab Order is a little bit better now, it is still messed up due to my decision to use groupboxes(and it would take a while to fix so I'm leaving it that way), but at least it will follow sections in order.
++ Values don't clip into other labels now
++ The separator for data was changed from commas to tildes, some items like Bag of 10,000 Gold included commas so it got shortened to Bag of 10...
++ Fixed an issue with the data where anything with a ' in the name could be missing information
++ The program now works the same in all countries across the world
++ Thousands of lines of code have been cut from the program as a result of optimization(Page 2 was cut down to 10-20% of its original size)
++ There is a new icon for the program
+/ Armor changed to Armour to match in-game terminology
+
+(v2.00)
+<Page 2 - NEW!>
++ Added an entirely new page(Skill/Auto Calculator) that allows you to look up the various stats of skills/statuses and calculate their effects(along with auto attack damage).
+
+<Page 1>
++ Enemies from Celtic Heroes are now included, with very limited data
++ Fixed a bug that made the first mob unsearchable. Now you can search Alwyn the Druid in all his glory...?!
+
+<General>
++ The input files are now precalculated and unneeded data was trimmed off of them. Searching should be much faster and take a lot less memory as well.
+/ Changed "Fire" damage to "Heat" to match the in-game terminology
+
+(v1.01)
++ Added horizontal scrollbars to the listboxes to avoid larger named items cutting off
+
+(v1.00)
+/ Initial Release
